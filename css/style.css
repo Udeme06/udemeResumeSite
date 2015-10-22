@@ -3,8 +3,7 @@ html, body
 	height:100%;
 	padding:0;
 	margin:0;
-	background-color:#383D3B;
-	
+	background-color:#383D3B;	
 }
 
 .container
@@ -36,6 +35,7 @@ html, body
 	margin-top:50px;
 	padding:10px;
     border:2px solid #108487;
+    border-radius:10px;
 
 }
 
@@ -44,10 +44,12 @@ html, body
       margin-top:50px;
       padding:10px;
       border:2px solid #877B0B;
+      border-radius:10px;
 }
 .message img{
 	padding: 5px;
 	border:2px solid #877B0B;
+	border-radius:10px;
 }
 
 
@@ -57,6 +59,7 @@ html, body
     margin-top:50px;
     padding:10px;
     border:2px solid #0B872F;
+    border-radius:10px;
 }
 
 
@@ -65,6 +68,7 @@ html, body
  margin-top:50px;
  padding:10px;
  border:2px solid #872D0C;
+ border-radius:10px;
 }
 
 
@@ -73,6 +77,7 @@ html, body
    margin-top:50px;
    padding:10px;
    border:2px solid #5F2669;
+   border-radius:10px;
 }
 
 
@@ -81,6 +86,7 @@ html, body
  margin-top:50px;
  padding:10px;
  border:2px solid #404269;
+ border-radius:10px;
 }
 
 
