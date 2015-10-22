@@ -14,37 +14,73 @@ html, body
  width:100%;
 }
 
-
-.content, div{
+.content{
 	width:50%;
 	height:auto;
-	margin:20px auto;
-	/*border:2px solid white;*/
+	margin:20px auto;	
 }
+
+.content h1, h2, h3, p{
+	color:#CADED7;
+    font-family: cursive;
+    font-weight: 100;
+    font-variant: normal;
+}
+.content h1{}
+.content h2{}
+.content h3{}
+.content p{}
+
 
 .header{
-	
+	margin-top:50px;
+	padding:10px;
+    border:2px solid #108487;
 
 }
+
 
 .message{
-      
+      margin-top:50px;
+      padding:10px;
+      border:2px solid #877B0B;
 }
+.message img{
+	padding: 5px;
+	border:2px solid #877B0B;
+}
+
+
+
 
 .work{
-    
+    margin-top:50px;
+    padding:10px;
+    border:2px solid #0B872F;
 }
+
+
 
 .education{
- 
+ margin-top:50px;
+ padding:10px;
+ border:2px solid #872D0C;
 }
+
+
 
 .skills{
-   
+   margin-top:50px;
+   padding:10px;
+   border:2px solid #5F2669;
 }
 
+
+
 .contact{
- 
+ margin-top:50px;
+ padding:10px;
+ border:2px solid #404269;
 }
 
 
