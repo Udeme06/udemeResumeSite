@@ -71,10 +71,10 @@ box-shadow: 6px 7px 0px 0px rgba(77,73,77,1);
 }
 
 .message
-{
+{    text-align: center;
       margin-top:30px;
       padding:10px;
-      background-color:#428699;
+      background-color:#097054;
  -webkit-box-shadow: 6px 7px 0px 0px rgba(77,73,77,1);
  -moz-box-shadow: 6px 7px 0px 0px rgba(77,73,77,1);
  box-shadow: 6px 7px 0px 0px rgba(77,73,77,1);
@@ -106,7 +106,7 @@ box-shadow: 6px 7px 0px 0px rgba(77,73,77,1);
 {
  margin-top:30px;
  padding:10px;
- background-color:#428699;
+ background-color:#097054;
  text-align: center;
  -webkit-box-shadow: 6px 7px 0px 0px rgba(77,73,77,1);
 -moz-box-shadow: 6px 7px 0px 0px rgba(77,73,77,1);
@@ -128,7 +128,7 @@ box-shadow: 6px 7px 0px 0px rgba(77,73,77,1);
 {
  margin-top:30px;
  padding:10px;
- background-color:#428699;
+ background-color:#097054;
  text-align: center;
  -webkit-box-shadow: 6px 7px 0px 0px rgba(77,73,77,1);
 -moz-box-shadow: 6px 7px 0px 0px rgba(77,73,77,1);
