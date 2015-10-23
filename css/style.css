@@ -16,7 +16,7 @@ html, body
 .content{
 	width:50%;
 	height:auto;
-	margin:20px auto;	
+	margin:2px auto 8px;	
 }
 
 .content h1
@@ -62,7 +62,6 @@ font-family: sans-serif;
 
 .header
 {
-	margin-top:30px;
 	padding:10px;
   background-color:#428699;
   text-align: center;
@@ -134,6 +133,23 @@ box-shadow: 6px 7px 0px 0px rgba(77,73,77,1);
 box-shadow: 6px 7px 0px 0px rgba(77,73,77,1);
 }
 
+.contact-2{
+  margin:0 auto 0;
+  height:40px;
+}
 
+.contact-2 img
+{
+  float:right;
+  padding: 7px;
+  -webkit-transition:all .5s ease-in-out
+  -moz-transition:all .5s ease-in-out;
+  -o-transition:all .5s ease-in-out;
+  transition:all .5s ease-in-out
+}
 
+.contact-2:hover img{
+width: 30px;
+height: 30px;
+}
 
