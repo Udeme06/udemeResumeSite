@@ -1,3 +1,43 @@
-.aboutme {
-  border: 2px solid black;
+body{
+  background-color: #ecf0f1;
+  min-height: 100vh;
+  font-family: 'Source Sans Pro', Sans-serif;
+  color:white;
+}
+
+.header img {
+  border: 8px solid #ecf0f1;
+  max-width: 150px;
+  border-radius: 50%;
+  
+}
+
+.header {
+  background-color: #61605e;
+  padding :0 15px ;
+
+}
+
+.container-fluid{
+  width:80%;
+}
+
+.page-navigation, .page-information {
+  background-color: #61605e;
+  margin-top:15px;
+}
+
+.page-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.page-navigation ul{
+   margin-top: 80px;
+}
+
+.page-navigation li {
+   margin-bottom: 15px;
 }
