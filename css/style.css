@@ -38,22 +38,20 @@ a, a:visited {
   border-radius: 50%;
 }
 
-
 .container-fluid{
-  width:70%;
+  width: 80%;
   background-color: #61605e;
   padding: 0 0 20px;
 }
 
 .page-navigation, .page-information {
-  margin-top:15px;
-  
+  margin-top:15px; 
 }
+
 .page-navigation {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 25px;
 }
 
 .page-information {
@@ -80,7 +78,7 @@ a, a:visited {
 }
 
 .page-navigation ul{
-   margin-top: 20px;
+   margin-top: 10px;
    margin-bottom: 20px;
 }
 
