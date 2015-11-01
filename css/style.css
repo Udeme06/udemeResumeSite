@@ -1,9 +1,9 @@
 body{
-  background-color: #ecf0f1;
+  
   min-height: 100vh;
   font-family: 'Source Sans Pro', Sans-serif;
   color:white;
-  background-color: #61605e;
+  background-color: #2A2A2B;
   font-weight: 100;
 }
 
@@ -20,22 +20,29 @@ a, a:visited {
 
 .jumbotron {
    background-color: #61605e;
-   border: 2px solid #ecf0f1;
+   border: 2px solid #8BA6BD;
 }
 
 .container {
  text-align: center;
 }
 
+.container h2 {
+   opacity: 0.5;
+   font-size: 2.5rem;
+}
+
 .container img {
-  border: 8px solid #ecf0f1;
-  max-width: 150px;
+  border: 8px solid #8BA6BD;
+  max-width: 180px;
   border-radius: 50%;
 }
 
 
 .container-fluid{
   width:70%;
+  background-color: #61605e;
+  padding: 0 0 20px;
 }
 
 .page-navigation, .page-information {
@@ -46,19 +53,23 @@ a, a:visited {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 25px;
 }
 
 .page-information {
   font-size: 2rem;
+  padding-right: 25px;
+  padding-left: 25px;
+  text-align: justify;
 }
 
 .page-information h3 { 
-  color: #337AB7;
+  color: #8BA6BD;
   font-size: 4rem;
 }
 
 .page-information h4 {
-   color: #337AB7;
+   color: #8BA6BD;
    font-size: 2.5rem;
 }
 
