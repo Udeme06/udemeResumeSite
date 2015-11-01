@@ -6,48 +6,70 @@
         <title>Udeme Ekpo</title>
         <link rel="icon" type="image/png" href="images/icon.png" sizes="16x16">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/action.js"></script>  
     </head>
 
     <body>
-       
-      <div class="nav nav-bar"></div>
-
 			<div class ="container-fluid"> 
 
-				<div class = "row">
-          <div class="col-md-12">
-            <div class="header">
-                <h1>Udeme Ekpo</h1>
-				        <h2>Software Developer/Computer Engineer</h2>  
-                <img src="images/me.jpg">   
-            </div>
+        <nav role="navigation" class="navbar navbar-inverse">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+        </div>
+        <!-- Collection of nav links, forms, and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><i class="fa fa-github"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+				<div class="jumbotron">
+          <div class="container">
+            <h1>Udeme Ekpo</h1>
+            <h2>Software Developer / Computer Engineer</h2>
+            <img src="images/me.jpg">
           </div>
         </div>
 
         <div class= "row">
-          <div class="col-md-3">
+          <div class="col-md-2">
             <div class="page-navigation">
-              <ul class="list-unstyled">
-                <li><button class = "">About Me</button></li>
-                <li><button class = "">Education</button></li>
-                <li><button class = "">Skills</button></li>
-                <li><button class = "">Work</button></li>
-                <li><button class ="">Contact</button></li>
+              <ul class="list-unstyled list-group">
+                <li><button class = "btn btn-primary" onclick="swap('about', 'education','skills','work','contact')">About Me</button></li>
+                <li><button class = "btn btn-primary" onclick="swap('education','about','skills','work','contact')">Education</button></li>
+                <li><button class = "btn btn-primary" onclick="swap('skills','education','about','work','contact')">Skills</button></li>
+                <li><button class = "btn btn-primary" onclick="swap('work','education','about','skills','contact')">Work</button></li>
+                <li><button class ="btn btn-primary" onclick="swap('contact','education','about','skills','work')">Contact</button></li>
               </ul>
             </div>
           </div>
 
-          <div class="col-md-9"> 
+          <div class="col-md-10"> 
             <div class="page-information">
-              <div class="about-me">   
+
+              <div class="about-me" id = "about">   
                 <h3>About Me</h3>
                 <p> My passion for technology is boundless. I love to learn new things and apply them in real world settings. I am not too funny, but my jokes aren't too sabby either. I am a Software Developer / Computer Engineer with skills in Web Development, Database Design, Electronics and Computer Networking (Trying to be a jack of all trades). I like solving real world and software related problems and do my best to provide useful solutions for clients. As a software developer, I strive to keep up with emerging technology, especially in the web development world. I get along well with teammates when working in a team. Team development provides a platform to share knowledge and experiences.
                 </p>
               </div>
 
 
-              <div class="education">
+              <div class="education" id="education">
                 <h3>Education</h3>
                 <h4>Southern Connecticut State University, New Haven, Connecticut.</h4>
                 <p> Master of Science, Computer Science, concentration Software Development</p>
@@ -63,7 +85,7 @@
               </div>
 
 
-              <div class= "skills">
+              <div class= "skills" id="skills">
                 <h3>Skills / Tools</h3>
                 <ul class="list-unstyled">
                 <li><p>Computer Programming: C, Visual Basic, C++ and Java.</p></li>
@@ -75,7 +97,7 @@
                 </ul>
               </div>
 
-              <div class= "work">
+              <div class= "work" id="work">
                 <h3>Work</h3>
                 <h4>A100 Developer: Independent Software - A100 Program</h4>
                 <p>Application of Agile methodology in software problems. Better coding practices. Web design and Development.
@@ -93,7 +115,7 @@
               </div>
 
 
-              <div class="contact">
+              <div class="contact" id="contact">
                 <h3>Contact</h3>
                 <p>Gmail: ekpoudemeusen@gmail.com</p>
                 <p>cell: 860-790-9556</p>
@@ -102,13 +124,5 @@
           </div>
         </div>
       </div>
-
-               
-      
-            
-
-        
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
     </body>
 </html>

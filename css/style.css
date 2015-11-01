@@ -3,41 +3,92 @@ body{
   min-height: 100vh;
   font-family: 'Source Sans Pro', Sans-serif;
   color:white;
+  background-color: #61605e;
+  font-weight: 100;
 }
 
-.header img {
+a, a:visited {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #337AB7;
+    border: 2px solid #337AB7;
+  }
+
+.jumbotron {
+   background-color: #61605e;
+   border: 2px solid #ecf0f1;
+}
+
+.container {
+ text-align: center;
+}
+
+.container img {
   border: 8px solid #ecf0f1;
   max-width: 150px;
   border-radius: 50%;
-  
 }
 
-.header {
-  background-color: #61605e;
-  padding :0 15px ;
-
-}
 
 .container-fluid{
-  width:80%;
+  width:70%;
 }
 
 .page-navigation, .page-information {
-  background-color: #61605e;
   margin-top:15px;
+  
 }
-
 .page-navigation {
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
+.page-information {
+  font-size: 2rem;
+}
+
+.page-information h3 { 
+  color: #337AB7;
+  font-size: 4rem;
+}
+
+.page-information h4 {
+   color: #337AB7;
+   font-size: 2.5rem;
+}
+
+
+.page-navigation button {
+   /*background-color:white;*/
+   width: 100px;
 }
 
 .page-navigation ul{
-   margin-top: 80px;
+   margin-top: 20px;
+   margin-bottom: 20px;
 }
 
 .page-navigation li {
    margin-bottom: 15px;
+}
+
+.education {
+  display: none;
+}
+
+.contact {
+  display: none;
+}
+
+.skills {
+  display: none;
+}
+
+.work {
+  display: none;
 }
