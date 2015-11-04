@@ -1,47 +1,54 @@
 body{
-  
   min-height: 100vh;
   font-family: 'Source Sans Pro', Sans-serif;
-  color:white;
+  color: white;
   background-color: #2A2A2B;
   font-weight: 100;
+  background-image: url('../images/bgimg.jpg');
 }
 
-a, a:visited {
-  color: white;
-  font-size: 2.5rem;
+.container-fluid{
+  width: 80%;
+  background-color: #3C3D40;
+  padding: 0 0 15px;
 }
 
 .navbar {
     margin-bottom: 0;
     background-color: #337AB7;
-    border: 2px solid #337AB7;
+    border: none;
   }
-
-.jumbotron {
-   background-color: #61605e;
-   border: 2px solid #8BA6BD;
-}
 
 .container {
  text-align: center;
 }
 
+.container h1 {
+   font-size: 4rem;
+}
+
 .container h2 {
-   opacity: 0.5;
-   font-size: 2.5rem;
+   font-size: 2.8rem;
 }
 
 .container img {
-  border: 8px solid #8BA6BD;
+  border: 4px solid #C7254E;
   max-width: 180px;
   border-radius: 50%;
 }
 
-.container-fluid{
-  width: 80%;
-  background-color: #61605e;
-  padding: 0 0 20px;
+a, a:visited {
+  font-size: 2.5rem;
+}
+
+.jumbotron {
+   background-color: #333131;
+   border: none;
+   border: 3px solid #8BA6BD;
+}
+
+.jumbotron code{
+  background-color: transparent;
 }
 
 .page-navigation, .page-information {
@@ -58,26 +65,34 @@ a, a:visited {
   font-size: 2rem;
   padding-right: 25px;
   padding-left: 25px;
-  text-align: justify;
 }
 
 .page-information h3 { 
-  color: #8BA6BD;
+  color: #C7254E;
   font-size: 4rem;
 }
 
 .page-information h4 {
-   color: #8BA6BD;
-   font-size: 2.5rem;
+  color: #8BA6BD;
+  font-size: 2.5rem;
 }
 
+.page-information em {
+  color: #8BA6BD;
+  font-size: 2.5rem;
+  font-style: normal;
+}
 
 .page-navigation button {
-   /*background-color:white;*/
    width: 100px;
+   border: none;
 }
 
-.page-navigation ul{
+.page-navigation button:hover {
+  background-color: #C7254E;
+}
+
+.page-navigation ul {
    margin-top: 10px;
    margin-bottom: 20px;
 }
@@ -100,4 +115,54 @@ a, a:visited {
 
 .work {
   display: none;
+}
+
+/*blink animation for cursor*/
+.blink {
+      animation: blink 1s steps(5, start) infinite;
+      -webkit-animation: blink 1s steps(5, start) infinite;
+      -moz-animation: blink 1s steps(5, start) infinite;
+      -o-animation: blink 1s steps(5, start) infinite;
+      -ms-animation: blink 1s steps(5, start) infinite;
+    }
+
+    @keyframes blink {
+      to {
+        visibility: hidden;
+      }
+    }
+
+    @-webkit-keyframes blink {
+      to {
+        visibility: hidden;
+      }
+    }
+
+    @-moz-keyframes blink {
+      to {
+        visibility: hidden;
+      }
+    }
+
+    @-o-keyframes blink {
+      to {
+        visibility: hidden;
+      }
+    }
+    @-ms-keyframes blink {
+      to {
+        visibility: hidden;
+      }
+    }
+
+@media only screen and (max-width : 320px) {
+  .container-fluid {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width : 480px) {
+  .container-fluid {
+    width: 100%;
+  }
 }
