@@ -5,3 +5,7 @@ function swap(one, two, three, four, five) {
     document.getElementById(four).style.display = 'none';
     document.getElementById(five).style.display = 'none';
 }
+
+$(".btn-primary").click(function() {
+    $('html, body').animate({scrollTop: $(document).height()}, 'fast');
+});
