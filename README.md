@@ -1,2 +1,2 @@
-# my-first-github-repo
-An initial test repo for A100 Apprentices to use to practice on.
+# Udeme Resume Site
+Resume website designed while in the A100 Program.
